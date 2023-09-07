@@ -164,6 +164,9 @@ function checkForMatch() {
 
 createDivsForColors();
 
-
+let myBtn = document.querySelector('button');
+myBtn.addEventListener('click', function(e){
+    window.location.reload();
+})
 
 
