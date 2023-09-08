@@ -12,19 +12,11 @@ h1 {
 p {
   font-size: 41px;
   color: rgb(34, 29, 85);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Trebuchet Ms', Arial, Helvetica, sans-serif'
-  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-  width: 40vw;
+  width: 50vw;
   height: 100vh;
   flex-direction: column;
   margin-left: 10em;
@@ -36,6 +28,16 @@ img {
   width: 144px;
   height: 142px;
   border-radius: 15px 15px 20px 25px ;   
+}
+
+button {
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  cursor: pointer;
+  border: none;
+  margin: .1em;
+  background: radial-gradient(ellipse at center, rgb(234, 236, 255) 0%, rgb(125, 125, 238) 35%, #282699 100%);
 }
 
     /* .sibling-fade { visibility: hidden; } */
@@ -72,12 +74,3 @@ img {
   text-decoration: none;
 } */
 
-button {
-  font-family: system-ui, sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  cursor: pointer;
-  border: none;
-  margin: .1em;
-  background: radial-gradient(ellipse at center, rgb(234, 236, 255) 0%, rgb(125, 125, 238) 35%, #282699 100%);
-}
