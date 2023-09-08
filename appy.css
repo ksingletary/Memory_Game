@@ -32,16 +32,6 @@ img {
   border-radius: 15px 15px 20px 25px ;   
 }
 
-button {
-  font-family: system-ui, sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  cursor: pointer;
-  border: none;
-  margin: .1em;
-  background: radial-gradient(ellipse at center, rgb(234, 236, 255) 0%, rgb(125, 125, 238) 35%, #282699 100%);
-  display: inline-block;
-}
 
     .sibling-fade { visibility: hidden; }
 /* Prevents :hover from triggering in the gaps between items */
@@ -59,4 +49,24 @@ button {
 /* Fade in the currently hovered item */
 
 
+button {
+  transition: all .5s ease;
+  color: rgb(34, 29, 85);
+  border: 3px solid rgb(32, 51, 91);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 2rem;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  margin: .4em;
+  display: inline-block;
 
+}
+button:hover {
+  color: #001F3F;
+  background-color: #938ae4;
+}
